@@ -1,0 +1,93 @@
+.block {
+    position: static;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    line-height: 100px;
+    text-align: center;
+}
+.fixed {
+    position: fixed;
+    background-color: red;
+    opacity: 0.5;
+    left: 300px;
+}
+.static {
+    position: static;
+    background-color: aqua;
+}
+.relative {
+    position: relative;
+    background-color: brown;
+    left: 240px;
+    top: 40px;
+}
+.sticky {
+    position: sticky;
+    background-color: darkgoldenrod;
+    top: 10px;
+    left: 10px;
+}
+.absolute {
+    position: absolute;
+    background-color: darkgreen;
+    left: 30px;
+}
+.logo {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    height: 500px;
+    width: 500px;
+    border-radius: 30%;
+    background: rgb(0,26,249);
+    background: radial-gradient(circle at -15% 90%, rgba(0,26,249,1) 7%, rgba(241,100,49,1) 26%, rgba(237,40,73,1) 43%, rgba(237,40,183,1) 71%, rgba(40,120,237,1) 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-border {
+    position: absolute;
+    border: 20px white solid;
+    border-radius: 30%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-circle {
+    position: absolute;
+    border: 30px white solid;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+.logo-mini-circle {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    left: 300px;
+    top: 40px;
+}
+.flag {
+    position: absolute;
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+    bottom: 20px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag-circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(249, 0, 0);
+    height: 150px;
+    width: 150px;
+}
